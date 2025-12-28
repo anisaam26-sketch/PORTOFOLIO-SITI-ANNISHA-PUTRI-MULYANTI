@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nisha | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- COLOR PICKER -->
+  <div class="color-picker-wrapper">
+    <input type="color" id="colorPicker" aria-label="Change background color">
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <h1 class="hero-title">Hi, I'm Nisha 👋</h1>
+        <p class="hero-subtitle">Front End Learner & Informatics Student</p>
+
+       <div class="social-links">
+  <a href="https://instagram.com/nishaapm26" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/siti-annisha-putri-mulyanti-23343439b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="mailto:anisaa.m26@gmail.com">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://drive.google.com/drive/folders/1fXRYhHlnay3JBntruEgKvXq8YGunEToB" target="_blank">
+    <i class="fab fa-google-drive"></i>
+  </a>
+</div>
+</div>
+
+
+      <!-- PHOTO STACK -->
+      <div class="photo-stack" id="photoStack">
+        <img src="images/photo1.jpg" class="card">
+        <img src="images/photo2.jpg" class="card">
+        <img src="images/photo3.jpg" class="card">
+        <img src="images/photo4.jpg" class="card">
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p id="typingAbout"></p>
+  </section>
+
+  <div class="section-line"></div>
+
+  <!-- PAGE ketiga -->
+  <section class="tabs-section">
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="education">Education</button>
+      <button class="tab-btn" data-tab="skills">Skills</button>
+      <button class="tab-btn" data-tab="projects">Projects</button>
+    </div>
+
+    <div class="tab-content">
+      <!-- EDUCATION -->
+      <div class="tab-panel active" id="education">
+        <div class="edu-item">
+          <img src="images/unsri fasilkom.jpg">
+          <h3>Faculty of Computer Science – UNSRI</h3>
+          <p>Currently studying core foundations of Informatics Engineering including basic programming, algorithms, data structures, web development introduction, logic, and problem solving. These subjects help me build the fundamentals I need to develop Front End skills such as HTML, CSS, JavaScript, and UI/UX.
+          </p>
+        </div>
+
+        <div class="edu-item">
+          <img src="images/sma 18 plg.jpg">
+          <h3>SMA Negeri 18 Palembang</h3>
+          <p>Science major and strong academic foundation, focused on Mathematics and Informatics subjects, which strengthened my analytical thinking, logic, and foundational digital literacy. These subjects supported my interest in programming and helped me transition into Informatics Engineering.
+         </p>
+        </div>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="tab-panel" id="skills">
+        <div class="skills-grid">
+          <div class="skill"><i class="fa-brands fa-java"></i><span>Java Basic</span></div>
+          <div class="skill"><i class="fa-brands fa-html5"></i><span>HTML Basic</span></div>
+          <div class="skill"><i class="fa-brands fa-css3-alt"></i><span>CSS Basic</span></div>
+          <div class="skill"><i class="fa-brands fa-js"></i><span>JavaScript Basic</span></div>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="tab-panel" id="projects">
+        <div class="project-card">
+          <img src="images/projectphoto.png">
+          <p>Simple Java GUI Food Ordering App</p>
+          <a href="https://drive.google.com/drive/folders/1NXv-IWVG0KB6VsaWlWXpNFEZQZqySVu3" target="_blank">
+            View Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Annisha
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
