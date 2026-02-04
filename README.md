@@ -2,7 +2,7 @@
 
 This is a Front-End portfolio website created using **HTML, CSS, and JavaScript**.
 
-## 🚀 Features
+## Features
 - Photo card interactive animation
 - About Me typing-text effect
 - Tab section (Education – Skills – Projects)
@@ -10,11 +10,12 @@ This is a Front-End portfolio website created using **HTML, CSS, and JavaScript*
 - Responsive design (Mobile + Desktop)
 - Custom background color change button
 
-## 🛠️ How to Run
+##  How to Run
 1. Download the project
 2. Extract ZIP
 3. Open file **index.html** inside browser
 
-## 🌐 Developer
+##  Developer
 Name: Nisha  
 LinkedIn: https://www.linkedin.com/in/siti-annisha-putri-mulyanti
+
