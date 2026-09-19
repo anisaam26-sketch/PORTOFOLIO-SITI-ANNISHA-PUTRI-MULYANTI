@@ -1,7 +1,7 @@
 alert("Hi! Welcome to my page 👋");
 document.addEventListener("DOMContentLoaded", () => {
 
-  /* Interactive Photo Stack */
+
   const stack = document.getElementById("photoStack");
   if (stack) {
     stack.addEventListener("click", () => {
@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  /* Hero Custom Color Picker */
   const hero = document.querySelector(".hero");
   const picker = document.getElementById("colorPicker");
   const wrapper = document.querySelector(".color-picker-wrapper");
@@ -46,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-/* Tabs */
+
 document.querySelectorAll(".tab-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
